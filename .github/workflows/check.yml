@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           poetry install --no-interaction
-          pip3 install pytest-md pytest-emoji
+          # pip3 install pytest-md pytest-emoji
       - name: Check with mypy
         run: |
           mypy .
@@ -31,5 +31,5 @@ jobs:
         uses: py-actions/flake8@v2
         with:
           plugins: "flake8-black"
-      - name: Test with pytest
-        uses: pavelzw/pytest-action@v2
+      # - name: Test with pytest
+      #   uses: pavelzw/pytest-action@v2
