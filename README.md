@@ -1,4 +1,11 @@
-# `mnltools.py` — Python tools for the Mario & Luigi games
+# `mnltools.py`
+Python tools for the Mario & Luigi games.
+
+
+## Installation
+```bash
+pip3 install mnltools
+```
 
 
 ## Tools
@@ -39,7 +46,7 @@ options:
 ```
 
 
-### Tools for Dream Team (Bros.)
+### Tools for *Dream Team (Bros.)*
 #### `dsp2rsd`
 ```
 usage: dsp2rsd [-h] [-o OUTPUT] [-q] [-e EXTRA_LOOP_SAMPLES] input

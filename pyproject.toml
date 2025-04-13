@@ -9,10 +9,13 @@ license = {text = "GPL-3.0-or-later"}
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
-    "mnllib @ git+https://github.com/MnL-Modding/mnllib.py.git@v0.2",
+    "mnllib (>=0.2.0,<0.3.0)",
     "ndspy (>=4.2.0,<5.0.0)",
     "tqdm (>=4.67.1,<5.0.0)",
 ]
+
+[project.urls]
+repository = "https://github.com/MnL-Modding/mnltools.py"
 
 [project.scripts]
 mnl-nds-unpack = "mnltools.nds.unpacker:main"
