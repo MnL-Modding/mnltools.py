@@ -1,6 +1,6 @@
 [project]
 name = "mnltools"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python tools for the Mario & Luigi games."
 authors = [
     {name = "Dimitar Dimitrov",email = "dmtrdmtrov@gmail.com"}
