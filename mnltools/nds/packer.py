@@ -135,6 +135,7 @@ def pack_overlays(
             and reference_overlays is not None
             and overlay_id in reference_overlays
             and overlay_data == reference_overlays[overlay_id].data
+            and reference_overlays[overlay_id].compressed
         ):
             encoded_overlay_data = typing.cast(
                 ndspy.rom.NintendoDSRom, reference_rom
